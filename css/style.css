@@ -1,0 +1,82 @@
+* {
+    font-family: "Lato";
+}
+@font-face {
+    font-family: "BigJohn";
+    src: url('../fonts/bigjohn.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+form {
+    margin: 0 auto;
+    font-family: "Lato";
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+input, textarea {
+    border-radius: 2px;
+}
+form h3{
+    text-align: center;
+    font-family: "BigJohn";
+    color: #48bf72;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+.user-contact {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-contact input, textarea {
+    padding-left: 30px;
+    border: 2px solid #3c4955;
+    border-left: 50px solid #3c4955;
+    margin-bottom: 30px;
+    background-color: #f1f1f1;
+}
+.user-contact input {
+    width: 255px;
+    height: 50px;
+}
+textarea {
+    width: 616px;
+    padding-top: 20px;
+    height: 225px;
+    resize: none;
+}
+input[type="submit"] {
+    height: 50px;
+    background-color: #48bf72;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    width: 700px;
+    letter-spacing: 4px;
+}
+.triangle {
+    position: absolute;
+    background-color: #3c4955;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    margin-top: 22px;
+    margin-left: 44px;
+}
+.user-icon, .mail-icon, .pencil-icon {
+    position: absolute;
+    background-image: url("../img/form-sprite.png");
+    width: 23px;
+    height: 22px;
+    margin-top: 16px;
+    margin-left: 14px;
+}
+.mail-icon {
+    background-position: 45px;
+}
+.pencil-icon {
+    background-position: 91px;
+}

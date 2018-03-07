@@ -1,0 +1,23 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    width: 20%
+}
+tr td:last-child {
+    text-align: left;
+}
+.end-war{
+    text-align: center !important;
+    color: blue;
+    border: 3px double black;
+}
+.green {
+    background-color: green;
+    color: white;
+}
+.year {
+    width: 15%;
+}
