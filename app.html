@@ -7,27 +7,67 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 </head>
 <body>
-    <form action="" method="post">
-       <h3>me contacter</h3>
-        <div class="user-contact">
-           <div class="user-info-name">
+   <div id="main-page" class="main-page">
+     <div class="main-page_background-tinting">
+         <div class="wrapper">
+            <header class="header">
+                <div class="logo">
+                    <a href="#main-page"><img src="../img/logo.png" alt="logo"></a>
+                </div>
+                <nav class="header-menu">
+                    <ul class="header-menu_items">
+                        <li><a class="header-menu_item header-menu_item_active" href="#">Accueil</a></li>
+                        <li><a class="header-menu_item" href="#">Portfolio</a></li>
+                        <li><a class="header-menu_item" href="#">About</a></li>
+                        <li><a class="header-menu_item" href="#form-contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1 class="main-page_main-text">voici votre prochain portfolio</h1>
+            <span class="main-page_text">un template psd simple et gratuit</span>
+            <a class="main-page_btn btn" href="#">mes travaux</a>
+           </div>
+       </div>
+    </div>
+    <form id="form-contact" class="form" action="" method="post">
+       <h3 class="form_header">me contacter</h3>
+        <div class="form-input">
+           <div class="user-contact-name">
                 <div class="user-icon"></div>
                 <div class="triangle"></div>
-                <input type="text" placeholder="Votre nom">
+                <input class="form-input_name" type="text" placeholder="Votre nom">
             </div>
             <div class="user-info-mail">
                 <div class="mail-icon"></div>
                 <div class="triangle"></div>
-                <input type="email" placeholder="Votre email">
+                <input class="form-input_email" type="email" placeholder="Votre email">
             </div>
         </div>
-        <div class="textarea">
+        <div class="form_textarea">
             <div class="triangle"></div>
             <div class="pencil-icon"></div>
-            <textarea placeholder="Votre message"></textarea>
+            <textarea class="form-input_text" placeholder="Votre message"></textarea>
         </div>
-        <input type="submit" value="Envoyer">
+        <input class="form-input_submit" type="submit" value="Envoyer">
     </form>
-    <a href="table.html">TABLE</a>
+    <footer class="footer">
+        <div class="footer-wrapper">
+           <span class="copyright">Copyright © 2015 by beneggen - www.beneggen.fr</span>
+           <div class="social">
+               <div class="hexagon social-item twitter">
+                   <a href="#" class="tw-icon social-item_icon"></a>
+               </div>
+               <div class="hexagon social-item linkedin">
+                   <a href="#" class="li-icon social-item_icon"></a>
+               </div>
+               <div class="hexagon social-item dribbble">
+                   <a href="#" class="dr-icon social-item_icon"></a>
+               </div>
+               <div class="hexagon social-item behance">
+                   <a href="#" class="be-icon social-item_icon"></a>
+               </div>
+           </div>
+        </div>
+   </footer>
 </body>
 </html>
